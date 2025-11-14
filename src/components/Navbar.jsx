@@ -44,6 +44,7 @@ const Navbar = ({ pgAtivo }) => {
             <MenuItem nome="fale-conosco" descricao="Fale Conosco" link="/fale-conosco" menuAtual={pgAtivo} />
             <MenuItem nome="area-atuacao" descricao="Área de Atuação" link="/area-atuacao" menuAtual={pgAtivo} />
             <MenuItem nome="impacto" descricao="Impacto Social" link="/impacto" menuAtual={pgAtivo} />
+            <MenuItem nome="login" descricao="Login" link="/login" menuAtual={pgAtivo} />
           </ul>
         </div>
       </div>

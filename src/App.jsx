@@ -8,6 +8,7 @@ import Clima from "./pages/Clima";
 import Beneficios from "./pages/Beneficios"; // <-- import da página Benefícios
 import AreaAtuacao from "./pages/AreaAtuacao";
 import Impacto from "./pages/Impacto";
+import Login from "./pages/Login";
 
 // Seus estilos (mantém o visual do projeto antigo)
 import "./assets/css/style.css";
@@ -27,6 +28,7 @@ export default function App() {
         <Route path="/fale-conosco" element={<FaleConosco />} />
         <Route path="/area-atuacao" element={<AreaAtuacao />} />
         <Route path="/impacto" element={<Impacto />} />
+        <Route path="/login" element={<Login />} />
 
         {/* Fallback */}
         <Route path="*" element={<Navigate to="/" replace />} />

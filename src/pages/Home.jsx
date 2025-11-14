@@ -97,6 +97,9 @@ function Home() {
           <Link to="/impacto" className="btn btn-success">
             <i className="bi bi-graph-up"></i> Impacto Social
           </Link>
+          <Link to="/login" className="btn btn-success">
+            <i className="bi-box-arrow-in-right"></i> Login
+          </Link>
         </div>
       </div>
     </Pagina>
