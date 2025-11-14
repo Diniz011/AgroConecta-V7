@@ -96,22 +96,11 @@ A aplicação iniciará com hot reload ativado.
 - `npm run preview` → Visualiza a versão de produção  
 - `npm run lint` → Analisa o código com ESLint  
 
----
-
-# 👥 Contribuição
-
-1. Faça um fork do projeto  
-2. Crie uma branch para sua feature → `git checkout -b minha-feature`  
-3. Commit organizado → `git commit -m "feat: minha nova feature"`  
-4. Envie sua branch → `git push origin minha-feature`  
-5. Abra um Pull Request
 
 ---
 
 # 📄 Licença
 
-Projeto licenciado sob **MIT License**.
+Projeto licenciado sob **AgroConecta**.
 
 ---
-
-Se quiser, posso também criar um **banner visual para o topo do README** ou inserir **badges adicionais** (React, Vite, FIAP, Versionamento, etc.). Basta pedir!
