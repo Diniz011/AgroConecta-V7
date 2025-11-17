@@ -10,6 +10,13 @@ import img4 from "../assets/img/carrosel_img4.png";
 import img5 from "../assets/img/carrosel_img5.png";
 
 function Home() {
+  // pega usuário logado (se existir)
+  const user = JSON.parse(localStorage.getItem("user"));
+
+  const isFamilia = user?.email === "familia@agro.com";
+  const botaoTexto = isFamilia ? "Área da Família" : "Área do Produtor";
+  const botaoRota = "/dashboard";
+
   return (
     <Pagina nome="Home">
       {/* Carrossel */}
@@ -43,6 +50,7 @@ function Home() {
         >
           <span className="carousel-control-prev-icon"></span>
         </button>
+
         <button
           className="carousel-control-next"
           type="button"
@@ -100,6 +108,10 @@ function Home() {
           <Link to="/login" className="btn btn-success">
             <i className="bi-box-arrow-in-right"></i> Login
           </Link>
+          <Link to={botaoRota} className="btn btn-success">
+            <i className="bi bi-speedometer2"></i> {botaoTexto}
+          </Link>
+
         </div>
       </div>
     </Pagina>
