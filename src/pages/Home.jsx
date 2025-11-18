@@ -82,7 +82,7 @@ function Home() {
       {/* Saiba mais */}
       <div className="mb-4">
         <h3>Saiba mais</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/cPbdc9-c0os?si=DilJ-5s-6t7s_9EX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wY-dFL-YeM8?si=TeRsMH3nAXvS6uJW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <div className="mt-3 d-flex flex-wrap gap-2">
           <Link to="/beneficios" className="btn btn-success">
             <i className="bi bi-bookmark-fill"></i> Benefícios
